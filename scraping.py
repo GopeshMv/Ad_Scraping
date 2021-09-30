@@ -56,8 +56,8 @@ for image in soup.findAll('img', attrs={"id":"platop0"}):
   #file.write(response.content)
   #file.close()
 
-
-  sin =  soup.findAll('div',class_='e10twf T4OwTb')
-  print(sin)
+#Rupees symbol encoding to UTF-8
+  #sin =  soup.findAll('div',class_='e10twf T4OwTb')
+  #print(sin)
 
 
