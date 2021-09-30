@@ -1,0 +1,10 @@
+SOFTWARE REQUIREMENTS: 
+	requests 
+	lxml 
+	urllib.parse
+	bs4 
+	BeautifulSoup
+        python IDE
+
+HARDWARE REQUIREMENTS:
+	PC with good internet bandwidth
