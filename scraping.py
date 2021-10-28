@@ -8,13 +8,13 @@ headers = {
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3538.102 Safari/537.36 Edge/18.19582"
 }
 
-def uprint(*objects, sep=' ', end='\n', file=sys.stdout):
-    enc = file.encoding
-    if enc == 'UTF-8':
-        print(*objects, sep=sep, end=end, file=file)
-    else:
-        f = lambda obj: str(obj).encode(enc, errors='backslashreplace').decode(enc)
-        print(*map(f, objects), sep=sep, end=end, file=file)
+#def uprint(*objects, sep=' ', end='\n', file=sys.stdout):
+ #   enc = file.encoding
+  #  if enc == 'UTF-8':
+   #     print(*objects, sep=sep, end=end, file=file)
+    #else:
+     #   f = lambda obj: str(obj).encode(enc, errors='backslashreplace').decode(enc)
+      #  print(*map(f, objects), sep=sep, end=end, file=file)
 
 # Search query
 params = {'q': 'phone buy'}
