@@ -17,7 +17,7 @@ headers = {
       #  print(*map(f, objects), sep=sep, end=end, file=file)
 
 # Search query
-params = {'q': 'phone buy'}
+params = {'q': '//Any type of advertisements that needs to be extracted'}
 
 # Getting HTML response
 html = requests.get(f'https://www.google.com/search?q=',
